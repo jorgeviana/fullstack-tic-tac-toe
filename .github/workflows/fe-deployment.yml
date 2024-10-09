@@ -20,6 +20,8 @@ jobs:
         working-directory: ./frontend
         run: |
           npm run build
+          pwd
+          ls -lta out
 
       - name: Netlify Deploy
         uses: jsmrcaga/action-netlify-deploy@v2.2.0
