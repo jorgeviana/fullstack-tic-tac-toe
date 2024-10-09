@@ -29,4 +29,4 @@ jobs:
           NETLIFY_DEPLOY_TO_PROD: true
           install_command: echo install
           build_command: echo build
-          build_directory: .frontend/out
+          build_directory: frontend/out
